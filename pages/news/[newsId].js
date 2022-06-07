@@ -14,10 +14,17 @@ function DetailsPage() {
 
     // router.query.WHATEVER-YOU-HAVE-IN-THE-BRACKETS
     // to get access to the nested path name 
-    console.log(router.query.newsId);
+    // console.log(router.query.newsId)
+    const newsId = router.query.newsId;
+    
+    // could send a request to the backend api here
+    // to fetch the news item with newsId
 
     return (
-        <h1>The Details Page</h1>
+        <>
+            <h1>The Details Page</h1>
+            <p>{newsId}</p>
+        </>
     )
 }
 
