@@ -1,5 +1,6 @@
 // ourdomain.com/news  
-// file name is used as path name
+// folder name is used as path name and then index 
+// means it is at the root of that path
 
 function NewsPage() {
     return (
